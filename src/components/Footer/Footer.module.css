@@ -1,0 +1,57 @@
+.footerContainer {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1c1c1c;
+  margin-top: 50px;
+}
+
+.contact ul li {
+  font-size: 20px;
+  margin: 12px;
+  font-style: normal;
+  font-weight: 13px;
+  line-height: 12px;
+  color: white;
+}
+
+.contact ul li:hover {
+  color: #ffba00;
+}
+
+.contactImg {
+  color: white;
+  margin-top: 30px;
+}
+
+.footerContainer img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .footerContainer {
+    display: grid;
+    height: 320px;
+  }
+
+  .footerContainer img {
+    /* width: 50%;
+    margin-left: 21%; */
+
+    margin: 0 auto;
+  }
+
+  .contact {
+    /* margin-left: 28%; */
+    margin: 0 auto;
+  }
+
+  .contactImg {
+    /* margin-top: 10px;
+    margin-left: 28%;
+    padding: 30px; */
+
+    margin: 0 auto;
+  }
+}
